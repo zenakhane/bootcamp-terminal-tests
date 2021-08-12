@@ -1,4 +1,4 @@
-function transportFee(fee){
+module.exports = function transportFee(fee){
     switch(fee){
       case "morning":
         return "R20"

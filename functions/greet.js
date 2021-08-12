@@ -1,4 +1,3 @@
-function greet(Bob){
-    var message = "Hello, " + Bob;
-    return message
-};
+module.exports = function(name){
+    return 'Hello, ' + name;
+}

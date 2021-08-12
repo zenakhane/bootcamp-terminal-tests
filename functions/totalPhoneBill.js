@@ -1,4 +1,4 @@
-function totalPhoneBill(phone){
+module.exports = function totalPhoneBill(phone){
     console.log(phone)
      const bill = phone.split(", ")
     var counter = 0

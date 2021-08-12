@@ -1,4 +1,4 @@
-function isFromBellville(registration){
+ module.exports = function isFromBellville(registration){
     if(registration.startsWith('CY')){
     return true;
      } else{
