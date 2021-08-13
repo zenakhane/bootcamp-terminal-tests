@@ -3,7 +3,7 @@ let findItemsOver = require("../functions/findItemsOver");
 
 describe('findItemsOver Function' , function(){
     it('Should return items over 20', function(){
-        assert.ok(
+        assert.deepEqual(
             findItemsOver([
                 {"name":"apples","qty":10},
                 {"name":"pears","qty":37},
@@ -19,7 +19,7 @@ describe('findItemsOver Function' , function(){
         });
 
     it('Should return items over 30', function(){
-        assert.ok(
+        assert.deepEqual(
             findItemsOver([
                 {"name":"apples","qty":10},
                 {"name":"pears","qty":37},
@@ -34,7 +34,7 @@ describe('findItemsOver Function' , function(){
         });
 
     it('Should return items over 5', function(){
-        assert.ok(
+        assert.deepEqual(
             findItemsOver([
                 {"name":"grapes","qty":10},
                 {"name":"pears","qty":37},
